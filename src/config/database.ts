@@ -8,7 +8,7 @@ const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/todo-app';
 export const connectDB = async () => {
   try {
     await mongoose.connect(MONGO_URI);
-    console.log(' MongoDB connecté avec succès');
+    console.log(' MongoDB connectée avec succès');
   } catch (error) {
     console.error('Erreur de connexion MongoDB :', error);
     process.exit(1);

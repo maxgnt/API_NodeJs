@@ -59,3 +59,8 @@ gRPC : plus performant que les deux autres et moins adapté au web et navigateur
 REST : APIs Publiques, architecture simple, requetes HTTP
 GraphQL ; Interfaces complexes, clients variés, requetes imbriquées, eviter overfetching
 gRPC : Communication interne, Microservices, Haute perfromance, Services temps réel
+
+## Sources TP :
+
+Docs officielles :
+Prettier : https://prettier.io/docs/configuration.html
