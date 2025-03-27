@@ -4,10 +4,10 @@ export enum Priority {
     "HIGH"= "HIGH"
 }
 
-export interface Todo {
+export interface ITodo {
     id?: string;
     title: string;
-    description: string;
+    description?: string;
     completed: boolean;
     dueDate?: Date;
     priority: Priority;

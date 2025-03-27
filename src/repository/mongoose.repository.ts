@@ -1,6 +1,6 @@
-import { TodoModel } from '../models/todo.model';
-import { CreateTodoDto, UpdateTodoDto } from '../types/todo.dto';
-import { ITodo } from '../types/todo.interface';
+import { TodoModel } from '../models/model.todo';
+import { CreateTodoDto, UpdateTodoDto } from '../types/dto.todo';
+import { ITodo } from '../types/interface.todo';
 import { Types } from 'mongoose';
 
 export class TodoRepository {

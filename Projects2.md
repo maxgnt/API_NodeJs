@@ -64,3 +64,25 @@ gRPC : Communication interne, Microservices, Haute perfromance, Services temps r
 
 Docs officielles :
 Prettier : https://prettier.io/docs/configuration.html
+
+## Mercredi
+
+# Validation des données d'entreé
+
+Polluer la base avec des données incrrectes
+Sécuriser l'application
+Améliorer l'expérience utilisateur
+
+# Bibliothèques de validation
+
+JOI
+Middleware API
+zod
+express-validator
+
+# Niveaux de validation
+
+Front-end : Première ligne, UX
+Middlware API : Avant traitement
+Service : Règles métier
+Base de données : Dernière ligne
